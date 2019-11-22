@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  each book in books
+    ul
+      li
+        h2 #{book.name}
+        h4 #{book.genre}
+     
+       
